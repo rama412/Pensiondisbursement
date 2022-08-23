@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8300
-ADD target/PensionDisbursement-Microservices.jar PensionDisbursement-Microservices.jar
-ENTRYPOINT ["java","-jar","/PensionDisbursement-Microservices.jar"]
+ADD target/*.jar PensionDisbursement-Microservices-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["sh","-c","java -jar /PensionDisbursement-Microservices-0.0.1-SNAPSHOT.jar"]

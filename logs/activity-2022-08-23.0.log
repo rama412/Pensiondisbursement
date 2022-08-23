@@ -91,3 +91,6 @@
 2022-08-23_20-11-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
 2022-08-23_20-11-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/disbursement'
 2022-08-23_20-11-11 [restartedMain] INFO  c.p.p.d.PensionDisbursementMicroserviceApplication - Started PensionDisbursementMicroserviceApplication in 5.716 seconds (JVM running for 6.716)
+2022-08-23_20-11-11 [http-nio-8300-exec-1] INFO  o.a.c.c.C.[.[.[/disbursement] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23_20-11-11 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23_20-11-11 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 42 ms
